@@ -1,0 +1,50 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(124, 124, 124, 0.3);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #333333;
+}
+
+.nav__msg-notification {
+  background-color: tomato;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-weight: 400;
+  font-size: 5px;
+  position: absolute;
+  left: 12.5px;
+  bottom: 12.5px;
+}
+
+.nav__ellipsis-notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  left: 22px;
+  bottom: 20px;
+}
