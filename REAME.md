@@ -1,3 +1,3 @@
 # KakaoTalk Clone
 
-HTML & CSS
+with HTML & CSS.

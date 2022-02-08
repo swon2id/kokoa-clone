@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .user-component,
@@ -12,7 +13,7 @@
   width: 60px;
   height: 60px;
   border-radius: 40%;
-  margin-right: 14px;
+  margin-right: 15px;
 }
 
 .user-component__avatar--m {
@@ -23,7 +24,6 @@
 .user-component__avatar--s {
   width: 50px;
   height: 50px;
-  margin-right: 14px;
 }
 
 .user-component__title {
@@ -42,5 +42,14 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
 }
