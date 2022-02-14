@@ -1,37 +1,33 @@
 .icon-row {
   display: flex;
   justify-content: space-between;
-}
-
-.icon-row__icon i {
-  font-size: 30px;
-}
-.icon-row__icon span {
-  margin-top: 20px;
-  font-size: 16px;
-  text-align: center;
+  height: 25px;
+  margin-bottom: 7px;
 }
 
 .icon-row__icon {
-  width: 90px;
+  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+}
+
+.icon-row__icon i {
+  font-size: 25px;
 }
 
 .icon-row__text {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 32px;
+  height: 28px;
 }
 
 .icon-row__text span {
-  width: 90px;
+  font-size: 14px;
   vertical-align: middle;
   text-align: center;
-  width: 90px;
+  width: 25%;
 }
 
 .icon-row-container {
@@ -39,5 +35,7 @@
 }
 
 .icon-row-container:nth-child(3) {
-  padding-top: 20px;
+  padding: 20px 0 30px 0;
+  margin-bottom: 0;
+  border-bottom: var(--main-border);
 }

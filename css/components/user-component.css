@@ -77,3 +77,21 @@
   display: flex;
   align-items: center;
 }
+
+.user-component--more .user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+
+.user-component--more .user-component__column:last-child span {
+  position: absolute;
+  right: 9px;
+}
+
+.user-component--more .user-component__column:last-child span:first-child {
+  bottom: 15px;
+}
+
+.user-component--more .user-component__column:last-child span:last-child {
+  bottom: 22px;
+}
