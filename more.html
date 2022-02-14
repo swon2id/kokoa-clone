@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,50 +24,73 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <i class="fas fa-search fa-lg"></i>
-        <i class="far fa-comment-dots fa-lg"></i>
         <i class="fas fa-music fa-lg"></i>
-        <i class="fas fa-cog fa-lg"></i>
+        <i class="fas fa-cog fa-lg has-dot">
+          <div class="dot"></div>
+        </i>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component chat__column">
+      <div class="user-component user-component--more">
         <div class="user-component__column">
           <img
             src="screenshots/user-image.jpg"
-            class="user-component__avatar user-component__avatar--m"
+            class="user-component__avatar"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Sangwon</h4>
-            <h6 class="user-component__subtitle">
-              Please check My Kokoa Account Info
-            </h6>
+            <div class="user-component__subtitle-container">
+              <h6 class="user-component__subtitle">+1 787 666 999</h6>
+              <span class="user-component__exclamation">!</span>
+            </div>
           </div>
         </div>
         <div class="user-component__column">
-          <span class="user-component__time">17:22</span>
-          <span class="badge badge--chats">1</span>
+          <i class="far fa-comment-alt fa-2x"></i>
         </div>
       </div>
-      <div class="user-component chat__column">
-        <div class="user-component__column">
-          <img
-            src="screenshots/user-image.jpg"
-            class="user-component__avatar user-component__avatar--m"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Sangwon</h4>
-            <h6 class="user-component__subtitle">
-              Please check My Kokoa Account Info
-            </h6>
+      <div class="icon-row-container">
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="far fa-regular fa-calendar-check"></i>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fas fa-solid fa-box"></i>
+          </div>
+          <div class="icon-row__icon">
+            <i class="far fa-smile-beam"></i>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fas fa-paint-roller"></i>
           </div>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">17:22</span>
-          <span class="badge badge--chats">1</span>
+        <div class="icon-row__text">
+          <span>Calendar</span>
+          <span>Talk Drive</span>
+          <span>Emotions</span>
+          <span>Themes</span>
+        </div>
+      </div>
+      <div class="icon-row-container">
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="fas fa-file-invoice-dollar"></i>
+          </div>
+          <div class="icon-row__icon">
+            <i class="far fa-regular fa-comments"></i>
+          </div>
+          <div class="icon-row__icon"></div>
+          <div class="icon-row__icon"></div>
+        </div>
+        <div class="icon-row__text">
+          <span>Account</span>
+          <span>OpenChat</span>
+          <span></span>
+          <span></span>
         </div>
       </div>
     </main>
@@ -82,7 +105,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <i class="fas fa-comment fa-lg"></i>
+            <i class="far fa-comment fa-lg"></i>
             <span class="badge badge--nav">1</span>
           </a>
         </li>

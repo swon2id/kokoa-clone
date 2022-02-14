@@ -53,3 +53,27 @@
   font-size: 12px;
   font-weight: 500;
 }
+
+.user-component--more {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.user-component__exclamation {
+  margin: 6px 0 0 5px;
+  display: block;
+  height: 12px;
+  width: 12px;
+
+  color: tomato;
+  font-weight: 600;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid tomato;
+  border-radius: 50%;
+}
+
+.user-component__subtitle-container {
+  display: flex;
+  align-items: center;
+}

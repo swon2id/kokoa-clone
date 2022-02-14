@@ -1,0 +1,43 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-row__icon i {
+  font-size: 30px;
+}
+.icon-row__icon span {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.icon-row__icon {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon-row__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+}
+
+.icon-row__text span {
+  width: 90px;
+  vertical-align: middle;
+  text-align: center;
+  width: 90px;
+}
+
+.icon-row-container {
+  margin: 20px 0;
+}
+
+.icon-row-container:nth-child(3) {
+  padding-top: 20px;
+}

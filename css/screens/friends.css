@@ -13,15 +13,16 @@
 }
 
 .friends-screen__channel {
-  margin-top: 20px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+  border-top: var(--main-border);
   padding-top: 15px;
 }
 
 .friends-screen__channel-header {
   display: flex;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--gray);
+  margin-bottom: -5px;
 }
 
 .friends-screen__channel-header span {

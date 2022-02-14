@@ -1,0 +1,129 @@
+.recommended-friends {
+  padding-top: 15px;
+  border-top: var(--main-border);
+}
+
+.recommended-friends__title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--gray);
+}
+
+.recommended-friends span {
+  display: block;
+  margin: 90px 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--gray);
+}
+
+.open-chat {
+  padding-top: 15px;
+  border-top: var(--main-border);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray);
+  margin-bottom: 20px;
+}
+
+.open-chat__header h6 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.open-chat__header span {
+  font-size: 14px;
+  font-weight: 600px;
+  opacity: 0.9;
+}
+
+.open-chat__header i {
+  opacity: 0.5;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.open-post__hashtags {
+  text-transform: uppercase;
+  font-weight: 500;
+  opacity: 0.5;
+  margin-bottom: 6px;
+}
+.open-post__members {
+  display: flex;
+  align-items: center;
+}
+
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 25%;
+  margin-right: 6px;
+}
+
+.open-post__member-count {
+  opacity: 0.5;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.open-post__members .divider {
+  opacity: 0.3;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 2px;
+}
+
+.open-post__member-status {
+  color: #eb66b8;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__photo img {
+  width: 110px;
+  height: 110px;
+  border-radius: 10%;
+}
+
+.open-post__like-count {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  bottom: 11px;
+  right: 8px;
+
+  font-size: 14px;
+}
+
+.open-post__like-count i {
+  margin-right: 6px;
+}
+
+.open-post:nth-child(N + 3) {
+  margin-top: 7.5px;
+  padding-top: 10px;
+  border-top: var(--main-border);
+}

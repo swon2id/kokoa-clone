@@ -17,22 +17,3 @@
   position: relative;
   color: #333333;
 }
-
-.nav__msg-notification {
-  position: absolute;
-  left: 12.5px;
-  bottom: 12.5px;
-}
-
-.nav__ellipsis-notification {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 4px;
-  width: 4px;
-  border-radius: 50%;
-  background-color: tomato;
-  position: absolute;
-  left: 22px;
-  bottom: 20px;
-}

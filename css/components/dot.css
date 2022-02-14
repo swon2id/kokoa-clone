@@ -1,0 +1,13 @@
+.has-dot {
+  position: relative;
+}
+
+.dot {
+  background-color: tomato;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 22px;
+  bottom: 16px;
+}

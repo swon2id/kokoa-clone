@@ -15,7 +15,13 @@
 
 .badge--chats {
   position: relative;
-  top: 4px;
+  top: 5px;
   height: 18px;
   width: 18px;
+}
+
+.badge--nav {
+  position: absolute;
+  left: 12.5px;
+  bottom: 12.5px;
 }
