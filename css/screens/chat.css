@@ -28,7 +28,7 @@
   width: 100%;
   display: flex;
   height: 70px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .message-row img {
@@ -106,9 +106,45 @@
 
 .reply .reply__column:last-child {
   width: 90%;
+  position: relative;
 }
 
 .reply input {
-  height: 30px;
+  padding: 14px;
   width: 100%;
+  border: var(--main-border);
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+.reply__column > i:not(.fa-arrow-up) {
+  opacity: 0.6;
+  font-size: 25px;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  right: 6px;
+  top: 5px;
+}
+
+.reply__column:last-child > i {
+  font-size: 25px;
+  right: 60px;
+  top: 10px;
+}
+
+.reply__column button {
+  background-color: var(--yellow);
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 15px;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
 }
