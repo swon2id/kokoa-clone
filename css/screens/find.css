@@ -122,8 +122,24 @@
   margin-right: 6px;
 }
 
-.open-post:nth-child(N + 3) {
+.open-post:nth-child(n + 2) {
   margin-top: 7.5px;
   padding-top: 10px;
   border-top: var(--main-border);
+}
+
+@keyframes heartBeat {
+  to {
+    color: tomato;
+    transform: scale(1.25);
+  }
+}
+
+.open-post__like-count {
+  will-change: auto;
+}
+
+.open-post__like-count:hover i {
+  will-change: transform;
+  animation: heartBeat 0.25s linear forwards;
 }

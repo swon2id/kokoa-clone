@@ -20,8 +20,21 @@
   width: 18px;
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .badge--nav {
   position: absolute;
   left: 12.5px;
   bottom: 12.5px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
